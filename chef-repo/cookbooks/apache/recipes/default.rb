@@ -19,3 +19,5 @@ bash 'httpd_service_on' do
   code "chkconfig httpd on"
 end
 
+
+include_recipe "apache::mysql"

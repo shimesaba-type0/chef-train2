@@ -1,4 +1,5 @@
-lock '3.5.0'
+#lock '3.5.0'
+lock '3.8.0'
 
 require 'capistrano/console'
 require 'json'
