@@ -1,0 +1,9 @@
+{
+  "name": "node1",
+  "server": "10.140.0.3", // remote host local ip address
+  "chef_environment": "development",
+  "run_list": [
+    "apache"
+  ]
+}
+
